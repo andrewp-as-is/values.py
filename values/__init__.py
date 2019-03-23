@@ -16,7 +16,7 @@ def _string(value):
 
 @public.add
 def get(input):
-    """return list with input values or [] if input is None"""
+    """return a list with input values or [] if input is None"""
     if input is None:
         return []
     if not _iterable(input) or _string(input):

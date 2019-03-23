@@ -1,16 +1,20 @@
-[![](https://img.shields.io/pypi/pyversions/values.svg?longCache=True)](https://pypi.org/pypi/values/)
-[![](https://img.shields.io/pypi/v/values.svg?maxAge=3600)](https://pypi.org/pypi/values/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/values.svg?longCache=True)](https://pypi.org/project/values/)
+[![](https://img.shields.io/pypi/v/values.svg?maxAge=3600)](https://pypi.org/project/values/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/values.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/values.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install values
 ```
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
-`values.get(input)`|return list with input values or [] if input is None
+`values.get(input)` |return a list with input values or [] if input is None
 
 #### Examples
 ```python
@@ -28,4 +32,6 @@ function|description
 []
 ```
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
