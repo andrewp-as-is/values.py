@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-import public
+__all__ = ['get']
+
+
 import collections
 
 
@@ -14,7 +15,6 @@ def _string(value):
         return isinstance(value, str)
 
 
-@public.add
 def get(input):
     """return a list with input values or [] if input is None"""
     if input is None:

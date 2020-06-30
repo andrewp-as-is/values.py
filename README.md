@@ -1,21 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/values.svg?longCache=True)](https://pypi.org/project/values/)
-[![](https://img.shields.io/pypi/v/values.svg?maxAge=3600)](https://pypi.org/project/values/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/values.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/values.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/values.svg?maxAge=3600)](https://pypi.org/project/values/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/values.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/values.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install values
 ```
-
-#### Functions
-function|`__doc__`
--|-
-`values.get(input)` |return a list with input values or [] if input is None
 
 #### Examples
 ```python
@@ -34,5 +29,5 @@ function|`__doc__`
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
