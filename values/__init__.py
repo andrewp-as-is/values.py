@@ -1,11 +1,11 @@
 __all__ = ['get']
 
 
-import collections
+import collections.abc
 
 
 def _iterable(obj):
-    return isinstance(obj, collections.Iterable)
+    return isinstance(obj, collections.abc.Iterable)
 
 
 def _string(value):
